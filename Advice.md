@@ -39,15 +39,15 @@ Over time you may decide to use subfolders to organize collections of files.
 
 **Reflection Prompts:** 
 
-* *Goals***:** what were specific goals driving the motivations for your studying? What are short term goals (i.e. by the end of the semester)? What are your longer term, i.e. career goals?   
-* *Time estimation***:** how did you go about scheduling study time? Was it intentional time set aside or spontaneous?  
+* *Goals:* what were specific goals driving the motivations for your studying? What are short term goals (i.e. by the end of the semester)? What are your longer term, i.e. career goals?   
+* *Time estimation:* how did you go about scheduling study time? Was it intentional time set aside or spontaneous?  
 * *Tools*: which tools did you use to create notes and why? how did you structure your notes (i.e. do you use categories or tags)?  
-* *Process*: do you journal once a day, once a week, other? How did you go about figuring out how to track data and organize your thoughts in writing it down? Does your draft look very different from the final submitted version, and if so why?  
-* *Collaboration*: did you engage in any collaborative experiences? How did your group coordinate or communicate collaboratively?  
-* *Expanding your comfort zone***:** What is one new thing you learned or tried that you never tried before? How do you feel about it? Will you do it again? Did you learn something new, what was it? Will you keep diving further into that topic? How so?  
+* *Process:* do you journal once a day, once a week, other? How did you go about figuring out how to track data and organize your thoughts in writing it down? Does your draft look very different from the final submitted version, and if so why?  
+* *Collaboration:* did you engage in any collaborative experiences? How did your group coordinate or communicate collaboratively?  
+* *Expanding your comfort zone:* What is one new thing you learned or tried that you never tried before? How do you feel about it? Will you do it again? Did you learn something new, what was it? Will you keep diving further into that topic? How so?  
 * *Highlights/Lowlights:* What was the most inspiring moment or topic from you studying in the past week(s)?  
 * *Refinements*: Is there anything you'll modify in coming weeks on your goals, time estimation, tools, process, collaborative techniques?  
-* *Extracurriculars*: What is something you hope to learn outside of school in the next 2 weeks?  
+* *Extracurriculars:* What is something you hope to learn outside of school in the next 2 weeks?  
 * *Professional network*: have you met someone new in recent weeks? how/where did you meet? talk about the experience a bit... 
 
 **Tips**
@@ -55,9 +55,10 @@ Over time you may decide to use subfolders to organize collections of files.
 **Recording session in terminal**
 
 \# Linux  
-script \--t=time-$(date \+%F).txt \-q \-a script-$(date \+%F).log          	     \# records  
-scriptreplay \--timing=time-$(date \+%F).txt script-$(date \+%F).log     \# replays
+
+`script --t=time-$(date +%F).txt -q -a script-$(date +%F).log`          	     \# records  
+`scriptreplay --timing=time-$(date +%F).txt script-$(date +%F).log`     \# replays
 
 \# Mac  
-script \-r script-$(date \+%F).log         \# records  
-script \-p script-$(date \+%F).log        \# replays  
+`script -r script-$(date +%F).log`         \# records  
+`script -p script-$(date +%F).log`        \# replays  
